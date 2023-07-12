@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body{
+    background-image: radial-gradient(circle at 120.44% 56.16%, #ef45e4 0, #d53feb 25%, #b53cf2 50%, #8d3cf9 75%, #5440ff 100%);
+
+}
+.cabecalho{
+    display: flex;
+    gap: 500px;
+}
+.logo{
+    width: 80px;
+    margin-left: 200px;
+}
+.navigation{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.navegacao{
+    color: #000000;
+}
+.btn{
+    color: #000000;
+    
+}
+.conteudo{
+    border-top: 0.4px solid #000000;
+}
+.texto-robo{
+    display: flex;
+    
+}
+.btn-adicione{
+    padding: 10px 25px;
+    background: #000000;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 1.5rem;
+    transition: all 0.5s;
+}
+.robo-principal{
+    margin-top: 96px;
+    margin-left: 300px;
+    margin-top: 50px;
+    width: 300px;
+}
+.texto{
+    margin-top: 130px;
+    margin-left: 100px;
+    line-height: 60px;
+}
+
+.titulo-principal{
+    font-size: 50PX;
+}
+.utilidades-bot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 60px;
+
+}
+.titulo-utilidades{
+    border-top: 0.4px solid #000000;
+    padding-top: 48px;
+    font-size: 25px;
+    
+}
+
+.rodape{
+    margin-top: 35px;
+    border-top: 0.4px solid #000000;
+
+}
+
+.rodape-logo{
+    margin-top: 0px;
+    margin-left: 530px;    
+    width: 250px;
+}
